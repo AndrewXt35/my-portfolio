@@ -242,6 +242,30 @@ function Projects() {
             </div>
           </a>
         </FadeIn>
+
+        <FadeIn delay={(projects.length + 1) * 0.08}>
+          <a
+            href="https://github.com/AndrewXt35/my-portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="card card-more"
+          >
+            <span className="corner tl" />
+            <span className="corner tr" />
+            <span className="corner bl" />
+            <span className="corner br" />
+            <div className="card-head">
+              <h3>how was this built?</h3>
+              <span className="arrow">↗</span>
+            </div>
+            <p>React + Vite. Source code is on GitHub — take a look.</p>
+            <div className="tags">
+              <span>source</span>
+              <span>react</span>
+              <span>vite</span>
+            </div>
+          </a>
+        </FadeIn>
       </div>
     </section>
   );
